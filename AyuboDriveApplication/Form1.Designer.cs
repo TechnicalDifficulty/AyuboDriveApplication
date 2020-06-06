@@ -60,6 +60,7 @@
             this.add_vehicle_btn.TabIndex = 2;
             this.add_vehicle_btn.Text = "ADD VEHICLE";
             this.add_vehicle_btn.UseVisualStyleBackColor = true;
+            this.add_vehicle_btn.Click += new System.EventHandler(this.add_vehicle_btn_Click);
             // 
             // hire_btn
             // 
@@ -70,6 +71,7 @@
             this.hire_btn.TabIndex = 1;
             this.hire_btn.Text = "HIRE";
             this.hire_btn.UseVisualStyleBackColor = true;
+            this.hire_btn.Click += new System.EventHandler(this.hire_btn_Click);
             // 
             // rent_btn
             // 

@@ -12,16 +12,6 @@ namespace AyuboDriveApplication
 {
     public partial class Form1 : Form
     {
-        //variables
-
-        int totalDays;
-        String carTypes;
-        bool driverNeeded = false;
-        float driverCost = 500;
-        float totalDriverCost;
-        int days;
-        int weeks;
-        int months;
         public Form1()
         {
             InitializeComponent();
@@ -36,6 +26,19 @@ namespace AyuboDriveApplication
         {
             rent_form rent = new rent_form();
             rent.Show();
+        }
+
+        private void hire_btn_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.Show();
+        }
+
+        private void add_vehicle_btn_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
+
         }
     }
 }
